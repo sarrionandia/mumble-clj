@@ -1,4 +1,4 @@
-(ns com.sarrionandia.mumble.mumble
+(ns com.sarrionandia.mumble
   (:require [clojure.string :as s]))
 
 (defn- mumble-letter [position letter]
