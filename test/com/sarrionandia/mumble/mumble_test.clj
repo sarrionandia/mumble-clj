@@ -16,4 +16,7 @@
     (is (= "C" (m/mumbler "C"))))
 
   (testing "Mumbles a two letter string"
-    (is (= "X-Yy" (m/mumbler "xy")))))
+    (is (= "X-Yy" (m/mumbler "xy"))))
+
+  (testing "Mumbles a three letter string"
+    (is (= "A-Ss-Ddd" (m/mumbler "asd")))))
