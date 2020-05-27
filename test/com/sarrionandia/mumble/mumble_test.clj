@@ -13,4 +13,7 @@
     (is (= "B" (m/mumbler "b"))))
 
   (testing "Single uppercase letter is unmodified"
-    (is (= "C" (m/mumbler "C")))))
+    (is (= "C" (m/mumbler "C"))))
+
+  (testing "Mumbles a two letter string"
+    (is (= "X-Yy" (m/mumbler "xy")))))
