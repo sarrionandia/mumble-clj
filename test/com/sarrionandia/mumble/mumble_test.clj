@@ -6,5 +6,5 @@
   (testing "Empty string returns empty string"
     (is (= "" (m/mumbler ""))))
 
-  (testing "Single letter mumble"
+  (testing "Single letter a"
     (is (= "A" (m/mumbler "a")))))
