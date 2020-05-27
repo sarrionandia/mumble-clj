@@ -19,4 +19,7 @@
     (is (= "X-Yy" (m/mumbler "xy"))))
 
   (testing "Mumbles a three letter string"
-    (is (= "A-Ss-Ddd" (m/mumbler "asd")))))
+    (is (= "A-Ss-Ddd" (m/mumbler "asd"))))
+
+  (testing "Mumbles a mixed case string"
+    (is (= "C-Vv-Bbb" (m/mumbler "cVb")))))

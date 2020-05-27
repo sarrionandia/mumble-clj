@@ -4,7 +4,7 @@
 (defn- mumble-letter [position letter]
   (s/join
     (concat (s/upper-case letter)
-            (repeat position letter))))
+            (repeat position (s/lower-case letter)))))
 
 (defn mumbler [x]
   (let [char-seq (vec x)]
