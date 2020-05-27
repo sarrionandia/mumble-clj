@@ -7,4 +7,7 @@
     (is (= "" (m/mumbler ""))))
 
   (testing "Single letter a"
-    (is (= "A" (m/mumbler "a")))))
+    (is (= "A" (m/mumbler "a"))))
+
+  (testing "Single letter b"
+    (is (= "B" (m/mumbler "b")))))

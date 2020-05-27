@@ -2,6 +2,6 @@
 
 (defn mumbler [x]
   (if
-    (= x "a")
-    "A"
-    ""))
+    (= x "")
+    ""
+    (clojure.string/upper-case x)))
