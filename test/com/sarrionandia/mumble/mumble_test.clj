@@ -12,5 +12,5 @@
   (testing "Single letter b returns capitalised B"
     (is (= "B" (m/mumbler "b"))))
 
-  (testing "Single letter B is unmodified"
-    (is (= "B" (m/mumbler "B")))))
+  (testing "Single uppercase letter is unmodified"
+    (is (= "C" (m/mumbler "C")))))
