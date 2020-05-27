@@ -4,4 +4,7 @@
 
 (deftest mumble-kata-test
   (testing "Empty string returns empty string"
-    (is (= "" (m/mumbler "")))))
+    (is (= "" (m/mumbler ""))))
+
+  (testing "Single letter mumble"
+    (is (= "A" (m/mumbler "a")))))

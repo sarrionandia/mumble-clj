@@ -1,4 +1,7 @@
 (ns com.sarrionandia.mumble.mumble)
 
 (defn mumbler [x]
-  constantly "")
+  (if
+    (= x "a")
+    "A"
+    ""))
