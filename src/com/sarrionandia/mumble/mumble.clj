@@ -2,12 +2,9 @@
   (:require [clojure.string :as s]))
 
 (defn- mumble-letter [position letter]
-  (let
-    [head (s/upper-case letter)
-     tail (repeat position letter)]
-      (s/join (concat head tail))))
-
-
+  (s/join
+    (concat (s/upper-case letter)
+            (repeat position letter))))
 
 (defn mumbler [x]
   (let [char-seq (vec x)]
